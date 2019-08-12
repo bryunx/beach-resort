@@ -12,10 +12,10 @@ ReactDOM.render(
         <Router>
             <App />
         </Router>
-    </RoomProvider>,
-    
+    </RoomProvider>
+    </HashRouter>,
         document.getElementById('root')
-    </HashRouter>
+    
     );
 
 // If you want your app to work offline and load faster, you can change
