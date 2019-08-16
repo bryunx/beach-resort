@@ -8,22 +8,22 @@ export default class Services extends Component {
             {
                 icon:<FaCocktail/>,
                 title:'free cocktails',
-                info: "lorem ipsum"
+                info: "Free cocktails at the bar from 1pm-4pm"
             },
             {
                 icon:<FaHiking/>,
                 title:'endless hiking',
-                info: "lorem ipsum"
+                info: "Numerous hiking trails with gorgeous views"
             },
             {
                 icon:<FaShuttleVan/>,
                 title:'free shuttle',
-                info: "lorem ipsum"
+                info: "Free shuttle rides to town"
             },
             {
                 icon:<FaBeer/>,
                 title:'strongest beer',
-                info: "lorem ipsum"
+                info: "World's strongest beer home brewed"
             }
         ]
     }

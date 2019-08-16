@@ -1,19 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //import './index.css';
-import {HashRouter, BrowserRouter as Router} from 'react-router-dom';
+import {HashRouter as Router} from 'react-router-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {RoomProvider} from './context';
 
 ReactDOM.render(
-    <HashRouter>
+    
     <RoomProvider>
         <Router>
             <App />
         </Router>
-    </RoomProvider>
-    </HashRouter>,
+    </RoomProvider>,
         document.getElementById('root')
     
     );
